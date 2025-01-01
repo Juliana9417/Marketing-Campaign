@@ -68,9 +68,9 @@ The graph represents the results of the Elbow Method, preceded by PCA to reduce 
 The graph indicates that the optimal number of clusters is 4, as the decrease in variance becomes insignificant after the 4th cluster, meaning additional clusters do not provide valuable new information.
 
 ## 📂 **Stage 5 : Conclusion and Recommendation**
-p align="center">
+<p align="center">
 <img src="https://github.com/user-attachments/assets/f6c92b9d-a96a-4484-8be8-3ec985f6f275)"
- alt="UserCluster">
+alt="UserCluster">
 </p>
 <br>
 
