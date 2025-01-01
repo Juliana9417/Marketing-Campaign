@@ -47,4 +47,56 @@ High-spending customers tend to have better conversion rates, indicating loyalty
 Lifestyle may influence conversion more than age.
 </p>
 
+## 📂 **Stage 3 : Data Preprocessing**
+### Feature Encoding
+<p align="center">
+<img src="https://github.com/user-attachments/assets/18dcec76-2e1a-4e39-a0ec-a150d76b42ed"
+ alt="FeatureEncoding">
+</p>
+<br>
+Feature encoding was performed on the education feature.
 
+## 📂 **Stage 4 : Data Modeling**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/62d86847-cfde-431b-adc7-c3b1dda7674f"
+ alt="ElbowMethod">
+</p>
+<br>
+
+The graph represents the results of the Elbow Method, preceded by PCA to reduce data dimensions while retaining information for optimal model performance.
+
+The graph indicates that the optimal number of clusters is 4, as the decrease in variance becomes insignificant after the 4th cluster, meaning additional clusters do not provide valuable new information.
+
+## 📂 **Stage 5 : Conclusion and Recommendation**
+p align="center">
+<img src="https://github.com/user-attachments/assets/f6c92b9d-a96a-4484-8be8-3ec985f6f275)"
+ alt="UserCluster">
+</p>
+<br>
+
+1. Cluster 0: Low Spender
+Strategy:
+Offer special discounts and loyalty programs to encourage transactions. Provide budget-friendly products.
+Use email marketing or personalized messages with age-relevant offers (>55 years).
+Recommendation: Increase marketing frequency to drive transactions.
+
+2. Cluster 1: Risk of Churn
+Strategy:
+Provide exclusive offers such as discounts or savings programs (e.g., free shipping) for the next transaction within a limited time.
+Run re-engagement campaigns with engaging content across platforms.
+Recommendation: Create more personalized re-engagement campaigns with attractive offers to reduce churn risk.
+
+3. Cluster 2: High Spender
+Strategy:
+Offer loyalty programs with exclusive access to premium products.
+Use upselling and cross-selling offers (premium or complementary products) to increase purchase value.
+Launch personalized campaigns with engaging user experiences.
+Recommendation: Focus on maintaining loyalty through exclusive benefits and relevant offers.
+
+4. Cluster 3: Mid Spender
+Strategy:
+Provide incentives to increase transaction frequency, such as loyalty programs (membership discounts).
+Ensure product offerings and promotions are highly relevant to customer interests.
+Offer value bundles to encourage more transactions.
+Introduce premium products to boost transaction value.
+Recommendation: Increase transaction frequency with special incentives, value bundles, and personalized marketing.
