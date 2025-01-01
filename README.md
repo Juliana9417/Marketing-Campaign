@@ -69,7 +69,7 @@ The graph indicates that the optimal number of clusters is 4, as the decrease in
 
 ## 📂 **Stage 5 : Conclusion and Recommendation**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/f6c92b9d-a96a-4484-8be8-3ec985f6f275)"
+<img src="https://github.com/user-attachments/assets/f6c92b9d-a96a-4484-8be8-3ec985f6f275"
 alt="UserCluster">
 </p>
 <br>
