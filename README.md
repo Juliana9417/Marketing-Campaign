@@ -1,34 +1,50 @@
 # Marketing-Campaign
 Predict Customer Personality to boost marketing campaign by using Machine Learning
 ## 📂 **Stage 0 : Problem Statement**
-Memahami perilaku pelanggan secara mendalam merupakan langkah penting dalam menciptakan pendekatan pemasaran yang lebih tepat sasaran. Dengan mempertimbangkan berbagai faktor dalam interaksi pelanggan, perusahaan dapat menyajikan pengalaman yang lebih relevan dan personal, meningkatkan kepuasan pelanggan dalam bertransaksi, serta mendorong peningkatan penjualan secara keseluruhan. Melalui pendekatan ini, perusahaan dapat memastikan bahwa setiap layanan atau produk yang ditawarkan benar-benar sesuai dengan kebutuhan pelanggan, membangun loyalitas, dan mempertahankan hubungan jangka panjang.
+Understanding customer behavior deeply is crucial for creating more targeted marketing approaches. By considering various factors in customer interactions, companies can deliver more relevant and personalized experiences, enhancing customer satisfaction and driving overall sales growth. This approach ensures that every product or service offered aligns with customer needs, fostering loyalty and maintaining long-term relationships.
 
-Salah satu metode efektif untuk menganalisis karakteristik dan perilaku pelanggan adalah dengan menggunakan pendekatan clustering. Teknik ini memungkinkan perusahaan mengelompokkan pelanggan ke dalam segmen-segmen yang memiliki kesamaan tertentu, sehingga perusahaan dapat menyusun strategi pemasaran yang lebih spesifik dan relevan untuk setiap kelompok. Dengan strategi yang lebih terarah, perusahaan dapat meningkatkan pengalaman pelanggan, membangun hubungan yang lebih kuat, dan pada akhirnya memperoleh keunggulan kompetitif di pasar.
+One effective method for analyzing customer characteristics and behavior is clustering. This technique allows companies to group customers into segments with specific similarities, enabling them to develop more tailored and relevant marketing strategies for each group. With more targeted strategies, companies can enhance customer experiences, build stronger relationships, and ultimately gain a competitive edge in the market.
 
 <br>
 
 ### Goal
-Pendekatan clustering saat ini digunakan untuk menganalisis karakteristik dan perilaku pelanggan, memungkinkan pemahaman yang lebih mendalam serta penyediaan layanan yang lebih personal. Langkah ini memudahkan pengambilan keputusan pemasaran yang lebih terarah dan meningkatkan performa penjualan.
+The clustering approach is currently used to analyze customer characteristics and behavior, enabling deeper insights and the delivery of more personalized services. This method facilitates more targeted marketing decisions and enhances sales performance.
 
 ### Objectives
-1. MembangunmodelMachineLearningklasteryangmemisahkanpelangganberdasarkankarakteristikutamasepertikebiasaanberbelanja,preferensi,daninteraksidenganplatform.
-2.
-Menyediakaninsightyangmembantuperusahaandalammenyasarkelompokpelangganyanglebihpotensialuntukmeningkatkantransaksidanloyalitas.
-3.
-Memberikanrekomendasistrategipemasaranyanglebihpersonaldanefektifberbasishasilklasterisasi.
-
+1. Develop a Machine Learning clustering model to segment customers based on key characteristics such as shopping habits, preferences, and interactions with the platform.
+2. Provide insights to help businesses target more potential customer groups to increase transactions and loyalty.
+3. Deliver recommendations for more personalized and effective marketing strategies based on clustering results.
 <br>
 
 ---
 
 ## 📂 **Stage 1 : Data Preparation**
 ### Data Understanding & Assesment
-Dataset memiliki 2240 baris dan 30 fitur. Understanding dan Assesment data dilakukan untuk memahami dan memastikan bahwa data yang digunakan sudah siap untuk di analisis dan kebutuhan analisis lainnya. Berikut hal yang dilakukan :
-
-- Memeriksa Missing Value pada data
-- Memeriksa daya yang duplikat
-- Memeriksa Outlier
-- Memeriksa tipe data dan konsistensi nilai
+The dataset consists of 2,240 rows and 30 features. Data understanding and assessment were conducted to ensure the data is ready for analysis and meets analytical requirements. The following steps were performed:
+- Checking for missing values in the data
+- Identifying duplicate records
+- Detecting outliers
+- Verifying data types and value consistency
   
+<br>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f177d31b-4b4d-4db8-b2fc-b2202bbd0355"
+ alt="DataMarketingCampaign">
+</p>
+<br>
+
+
+## 📂 **Stage 2 : Exploratory Data Analysis**
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/85a0c50f-4b3f-41c9-b9b0-86bfc4da3225"
+ alt="BivariateAnalysis">
+</p>
+<br>
+<p>Income and total spending positively correlate with purchase conversion.
+Higher income and spending increase the likelihood of purchases.
+High-spending customers tend to have better conversion rates, indicating loyalty and higher buying potential. Targeting high-income customers with premium offers is effective.
+Lifestyle may influence conversion more than age.
+</p>
 
 
